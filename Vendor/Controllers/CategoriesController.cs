@@ -6,7 +6,7 @@ using Vendor.Models;
 namespace Vendor.Controllers
 {
   public class CategoriesController : Controller
-  {
+  { 
 
     [HttpGet("/categories")]
     public ActionResult Index()
