@@ -5,11 +5,11 @@
 <html>
     <head>
         <meta charset='utf-8'>
-        <title>Items</title>
+        <title>Vendor</title>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     </head>
     <body>
-<h3>Items</h3>
+<h3>Vendor</h3>
 <ol>
     @foreach(var item in @Model["items"])
     {
@@ -18,7 +18,7 @@
 </ol>
 
 <p><a href='/categories/@Model["category"].Id/items/new'>Add New Item</a></p>
-<p><a href='/categories'>Return to Categories</a></p>
+<p><a href='/categories'>Return to Vendor</a></p>
 <p><a href='/'>Return to Homepage</a></p>
 </body>
 </html>

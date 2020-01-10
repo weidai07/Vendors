@@ -6,13 +6,13 @@
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
     </head>
     <body>
-        <h1>Add Item @Model.getName()</h1>
+        <h1>Add Order @Model.getName()</h1>
      <form action="/categories/@Model.Id/items" method="post">
       <br>
       <input id="categoryId" name="categoryId" type="hidden" value="@Model.Id">
-      <label for="itemDescription">Item</label>
+      <label for="itemDescription">Order</label>
       <input id="description" name="description" type="text">
-      <button type="submit">Add Item</button>
+      <button type="submit">Add Order</button>
     </form>
 </body>
 </html>
