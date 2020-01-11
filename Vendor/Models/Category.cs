@@ -10,7 +10,7 @@ namespace Vendor.Models
         public int Id;
         public Category()
         {
-
+ 
         }
 
         public Category(string name)
