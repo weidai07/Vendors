@@ -32,7 +32,7 @@ namespace Vendor.Models
 
         public List<Item> getItems()
         {
-            return this.itemList;
+            return this.itemList; 
         }
 
         public void addItem(Item new_item)
