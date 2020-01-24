@@ -11,14 +11,14 @@
     <body>
 <h3>Vendor</h3>
 <ol>
-    @foreach(var item in @Model["items"])
+    @foreach(var order in @Model["orders"])
     {
-        <li><a href='/categories/@Model["category"].Id/items/@item.Id'>@item.getDescription()</a></li>
+        <li><a href='/vendors/@Model["vendor"].Id/orders/@order.Id'>@order.getDescription()</a></li>
     }
 </ol>
 
-<p><a href='/categories/@Model["category"].Id/items/new'>Add New Item</a></p>
-<p><a href='/categories'>Return to Vendor</a></p>
+<p><a href='/vendors/@Model["vendor"].Id/orders/new'>Add New Order</a></p>
+<p><a href='/vendors'>Return to Vendor</a></p>
 <p><a href='/'>Return to Homepage</a></p>
 </body>
 </html>

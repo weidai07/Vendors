@@ -10,17 +10,17 @@
 <h1>Vendor</h1>
     @if (Model.Count == 0)
     {
-    <p>There are no items on the list</p>
+    <p>There are no orders on the list</p>
     }
 <ul>
-    @foreach (Item item in Model )
+    @foreach (Order order in Model )
     {  
-        <li> @item.getDescription()</li>
+        <li> @order.getDescription()</li>
     }
   
 </ul>
-<a href="/items/new">Add New Order</a>
-<form action="/items/delete" method="post">
+<a href="/orders/new">Add New Order</a>
+<form action="/orders/delete" method="post">
     <button type="submit" class="btn btn-info" name="button">Clear</button>
 </form>
 

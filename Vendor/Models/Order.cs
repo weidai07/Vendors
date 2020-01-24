@@ -1,17 +1,17 @@
 using System.Collections.Generic; 
 namespace Vendor.Models
 {
-    public class Item 
+    public class Order 
     {
         private string description;
         public int Id;
-        private static List<Item> list = new List<Item>{};
+        private static List<Order> list = new List<Order>{};
 
-        public Item()
+        public Order()
         {
 
         }
-        public Item(string description)
+        public Order(string description)
         {
             this.description = description;
             list.Add(this);
@@ -28,22 +28,22 @@ namespace Vendor.Models
             this.description = new_des;
         }
 
-        public static List<Item> getAllItems()
+        public static List<Order> getAllOrders()
         {
             return list;
         }
 
-        public static void clearAllItems()
+        public static void clearAllOrders()
         {
             list.Clear();
         }
 
         public string toString()
         {
-            return "This item is "+this.description;
+            return "This order is "+this.description;
         }
 
-        public static Item Find(int searchId)
+        public static Order Find(int searchId)
         {
             return list[searchId-1];
         }

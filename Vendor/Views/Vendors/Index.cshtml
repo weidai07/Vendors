@@ -14,15 +14,15 @@
   <p>The List is Empty</p>
 }
 <ul>
-    @foreach (Category category in Model )
+    @foreach (Vendor vendor in Model )
     {
       
-        <h3><a href="/categories/@category.Id" >@category.getName()</a></h3>
+        <h3><a href="/vendors/@vendor.Id" >@vendor.getName()</a></h3>
     }
   
 </ul>
-<a href="/categories/new">Add New Vendor</a>
-<form action="/categories/delete" method="post">
+<a href="/vendors/new">Add New Vendor</a>
+<form action="/vendors/delete" method="post">
   <button type="submit" class="btn btn-info" name="button">Clear</button>
 </form>
 

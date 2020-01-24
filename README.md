@@ -23,7 +23,7 @@ Github - https://github.com/weidai07/vendors
 
 ### Specification
 
-This program is designed to record the different vendors along with their current and past orders from Pierre's Bakery. Pierre can track the order history by checking the different catagories along with the items that are added in each catageory. For instance: Vendor-One ordered twelve loaves of bread. If Pierre wanted to check how many loaves of bread Vendor One ordered, all he has to go to open the 'Vendor Page', click on 'Vendor-One', then click on the various itemized products to see the order placed by Vendor-One. Once the order is delivered, Pierre is able to clear the list by clicking on the 'Clear' button. However, in order for all that to happen, Pierre must first add Vendor-One along with Vendor-One's requested items with the 'Add Vendor' buttom. 
+This program is designed to record the different vendors along with their current and past orders from Pierre's Bakery. Pierre can track the order history by checking the different catagories along with the orders that are added in each category. For instance: Vendor-One ordered twelve loaves of bread. If Pierre wanted to check how many loaves of bread Vendor One ordered, all he has to go to open the 'Vendor Page', click on 'Vendor-One', then click on the various itemized products to see the order placed by Vendor-One. Once the order is delivered, Pierre is able to clear the list by clicking on the 'Clear' button. However, in order for all that to happen, Pierre must first add Vendor-One along with Vendor-One's requested orders with the 'Add Vendor' buttom. Pierre only has the ability to clear all Venders and Orders all at once with the delete buttom. 
 
 ## Known Bugs
 
