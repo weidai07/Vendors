@@ -1,16 +1,12 @@
 using System.Collections.Generic; 
-namespace Vendor.Models
+
+namespace VendorTracker.Models
 {
     public class Order 
     {
         private string description;
         public int Id;
         private static List<Order> list = new List<Order>{};
-
-        public Order()
-        {
-
-        }
         public Order(string description)
         {
             this.description = description;
